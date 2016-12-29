@@ -1,3 +1,15 @@
-Mets ça dans bashrc : 
+# Street fighter sprite
 
-sprite_sf=( $HOME/sprites-sf/*.txt  ) ; cat "${sprite_sf[RANDOM % ${#sprite_sf[@]}]}"
+## Notes : 
+
+Should fit in any 256 colors terminal. based on : https://github.com/ajgon/street-fighter-motd (minus the lame bootstrap and vagrant setup)
+
+## Bashrc : 
+
+Put that in your .{zsh,bash,whatever}rc : 
+(Change $HOME to wherever you cloned that crap)
+
+```bash
+ sprite_sf=( $HOME/sprites_sf/*.txt  ) ; cat "${sprite_sf[RANDOM % ${#sprite_sf[@]}]}"
+```
+
