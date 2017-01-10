@@ -12,4 +12,3 @@ Put that in your .{zsh,bash,whatever}rc :
 ```bash
  sprite_sf=( $HOME/sprites_sf/*.txt  ) ; cat "${sprite_sf[RANDOM % ${#sprite_sf[@]}]}"
 ```
-
